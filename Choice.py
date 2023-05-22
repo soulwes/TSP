@@ -34,8 +34,3 @@ def choise(population, distances, n, n_to_choose):
         not_choosen.discard(current)
 
     return choosen, choosen_distance
-
-
-def no_interaction(offsprings, fitness_offsprings, fitness_mean, n, alpha, gamma, sigma):
-    return fitness_offsprings
-
